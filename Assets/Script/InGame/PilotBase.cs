@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PilotBase : MonoBehaviour
 {
-    PilotTipe _pilotTipe;
+    [SerializeField]PilotTipe _pilotTipe;
 }
 public enum PilotTipe
 {
